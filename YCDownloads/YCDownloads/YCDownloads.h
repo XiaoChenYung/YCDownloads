@@ -10,6 +10,12 @@
 #import "HSSessionModel.h"
 #import "NSString+Hash.h"
 @interface YCDownloads : NSObject
+
+@property (nonatomic, copy) NSString *downloadPath;
+
+@property (nonatomic, strong) NSArray *downloadURLs;
+
+
 /**
  *  单例
  *
