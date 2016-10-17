@@ -13,6 +13,7 @@
 		92FDA3D81DB476E7002050E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92FDA3D61DB476E7002050E7 /* Main.storyboard */; };
 		92FDA3DA1DB476E7002050E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92FDA3D91DB476E7002050E7 /* Assets.xcassets */; };
 		92FDA3DD1DB476E7002050E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92FDA3DB1DB476E7002050E7 /* LaunchScreen.storyboard */; };
+		92FDA3E71DB478BC002050E7 /* YCDownloads.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FDA3E61DB478BC002050E7 /* YCDownloads.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		92FDA3D91DB476E7002050E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		92FDA3DC1DB476E7002050E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		92FDA3DE1DB476E7002050E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92FDA3E51DB478BC002050E7 /* YCDownloads.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YCDownloads.h; sourceTree = "<group>"; };
+		92FDA3E61DB478BC002050E7 /* YCDownloads.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YCDownloads.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		92FDA3CC1DB476E7002050E7 /* YCDownloads */ = {
 			isa = PBXGroup;
 			children = (
+				92FDA3E41DB4789C002050E7 /* YCDownloads */,
 				92FDA3D01DB476E7002050E7 /* AppDelegate.h */,
 				92FDA3D11DB476E7002050E7 /* AppDelegate.m */,
 				92FDA3D31DB476E7002050E7 /* ViewController.h */,
@@ -77,6 +81,15 @@
 				92FDA3CE1DB476E7002050E7 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		92FDA3E41DB4789C002050E7 /* YCDownloads */ = {
+			isa = PBXGroup;
+			children = (
+				92FDA3E51DB478BC002050E7 /* YCDownloads.h */,
+				92FDA3E61DB478BC002050E7 /* YCDownloads.m */,
+			);
+			path = YCDownloads;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,6 +167,7 @@
 				92FDA3D51DB476E7002050E7 /* ViewController.m in Sources */,
 				92FDA3D21DB476E7002050E7 /* AppDelegate.m in Sources */,
 				92FDA3CF1DB476E7002050E7 /* main.m in Sources */,
+				92FDA3E71DB478BC002050E7 /* YCDownloads.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,6 +324,7 @@
 				92FDA3E31DB476E7002050E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
