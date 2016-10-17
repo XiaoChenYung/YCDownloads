@@ -14,6 +14,8 @@
 		92FDA3DA1DB476E7002050E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92FDA3D91DB476E7002050E7 /* Assets.xcassets */; };
 		92FDA3DD1DB476E7002050E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92FDA3DB1DB476E7002050E7 /* LaunchScreen.storyboard */; };
 		92FDA3E71DB478BC002050E7 /* YCDownloads.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FDA3E61DB478BC002050E7 /* YCDownloads.m */; };
+		92FDA3EB1DB4791B002050E7 /* NSString+Hash.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FDA3EA1DB4791B002050E7 /* NSString+Hash.m */; };
+		92FDA3EE1DB47960002050E7 /* HSSessionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FDA3ED1DB47960002050E7 /* HSSessionModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,10 @@
 		92FDA3DE1DB476E7002050E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		92FDA3E51DB478BC002050E7 /* YCDownloads.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YCDownloads.h; sourceTree = "<group>"; };
 		92FDA3E61DB478BC002050E7 /* YCDownloads.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YCDownloads.m; sourceTree = "<group>"; };
+		92FDA3E91DB4791B002050E7 /* NSString+Hash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Hash.h"; sourceTree = "<group>"; };
+		92FDA3EA1DB4791B002050E7 /* NSString+Hash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Hash.m"; sourceTree = "<group>"; };
+		92FDA3EC1DB47960002050E7 /* HSSessionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HSSessionModel.h; path = MD5/HSSessionModel.h; sourceTree = "<group>"; };
+		92FDA3ED1DB47960002050E7 /* HSSessionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HSSessionModel.m; path = MD5/HSSessionModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,10 +92,22 @@
 		92FDA3E41DB4789C002050E7 /* YCDownloads */ = {
 			isa = PBXGroup;
 			children = (
+				92FDA3E81DB4791B002050E7 /* MD5 */,
+				92FDA3EC1DB47960002050E7 /* HSSessionModel.h */,
+				92FDA3ED1DB47960002050E7 /* HSSessionModel.m */,
 				92FDA3E51DB478BC002050E7 /* YCDownloads.h */,
 				92FDA3E61DB478BC002050E7 /* YCDownloads.m */,
 			);
 			path = YCDownloads;
+			sourceTree = "<group>";
+		};
+		92FDA3E81DB4791B002050E7 /* MD5 */ = {
+			isa = PBXGroup;
+			children = (
+				92FDA3E91DB4791B002050E7 /* NSString+Hash.h */,
+				92FDA3EA1DB4791B002050E7 /* NSString+Hash.m */,
+			);
+			path = MD5;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,6 +185,8 @@
 				92FDA3D51DB476E7002050E7 /* ViewController.m in Sources */,
 				92FDA3D21DB476E7002050E7 /* AppDelegate.m in Sources */,
 				92FDA3CF1DB476E7002050E7 /* main.m in Sources */,
+				92FDA3EE1DB47960002050E7 /* HSSessionModel.m in Sources */,
+				92FDA3EB1DB4791B002050E7 /* NSString+Hash.m in Sources */,
 				92FDA3E71DB478BC002050E7 /* YCDownloads.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
