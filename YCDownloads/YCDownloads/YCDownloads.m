@@ -33,6 +33,10 @@
 
 @implementation YCDownloads
 
+- (void)config {
+    
+}
+
 - (NSMutableDictionary *)tasks
 {
     if (!_tasks) {
@@ -79,7 +83,7 @@ static YCDownloads *_downloadManager;
 }
 
 /**
- *  创建缓存目录文件
+ *  创建缓存目录
  */
 - (void)createCacheDirectory
 {
