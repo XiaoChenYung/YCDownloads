@@ -10,12 +10,12 @@
 #import "HSSessionModel.h"
 #import "NSString+Hash.h"
 @interface YCDownloads : NSObject
-
+//下载的路径
 @property (nonatomic, copy) NSString *downloadPath;
-
+//下载的URL数组
 @property (nonatomic, strong) NSArray *downloadURLs;
-
-
+//同时下载的最大数量
+@property (nonatomic, assign) NSInteger maxCount;
 /**
  *  单例
  *
